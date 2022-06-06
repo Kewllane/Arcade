@@ -1,0 +1,82 @@
+body {
+    text-align: center;
+    background-color: #27EBC4;
+}
+
+#gameName {
+    font-size: 80px;
+}
+
+#turnResult {
+    font-size: 40px;
+    margin-top: 30px
+}
+
+.space {
+    border: solid black 1px;
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    vertical-align: top;
+    font-size: 125px;
+    cursor: pointer;
+    color: black;
+    background-color: lightgrey;
+    border-radius: 25%;
+    box-shadow: 10px 10px;
+    background-color: #F6A396;
+}
+
+.space:active {
+    transform: scale(0.98);
+}
+
+.numberOfPlayers:active {
+    transform: scale(0.98);
+}
+
+#startButton {
+    font-size: 40px;
+    border: solid black 1px;
+    width: 400px;
+    height: 100px;
+    cursor: pointer;
+    border-radius: 25%;
+    box-shadow: 10px 10px;
+    background-color: #F6A396;
+    margin-top: 50px;
+}
+
+#startButton:active {
+    transform: scale(0.98)
+}
+
+.numberOfPlayers {
+    font-size: 40px;
+    border: solid black 1px;
+    width: 150px;
+    height: 100px;
+    cursor: pointer;
+    border-radius: 25%;
+    box-shadow: 10px 10px;
+    background-color: #F6A396;
+    margin-bottom: 20px
+}
+
+#onePlayer {
+    margin-right: 50px;
+}
+
+#nameInputDiv {
+    margin-bottom: 30px;
+}
+
+.nameInput {
+    margin-bottom: 15px;
+    width: 200px;
+    height: 40px;
+    background-color: #F6A396;
+    border: 4px solid black;
+    font-size: 25px;
+    text-align: center;
+}
